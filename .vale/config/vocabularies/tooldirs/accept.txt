@@ -1,0 +1,6 @@
+tooldirs
+XDG
+macOS
+FreeBSD
+OpenBSD
+repo

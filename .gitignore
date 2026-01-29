@@ -1,0 +1,51 @@
+# Build artifacts
+/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+coverage.out
+coverage.html
+*.coverprofile
+
+# Go workspace file
+go.work
+go.work.sum
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependency directories
+vendor/
+
+# Node.js dependencies
+node_modules/
+
+# pnpm
+pnpm-debug.log
+
+# Vale downloaded styles (will be downloaded by `vale sync`)
+.vale/Google/
+.vale/write-good/
+.vale/proselint/
+.vale/ai-tells/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Local configuration
+*.local.yaml
+*.local.yml
+*.local.json
