@@ -1,0 +1,9 @@
+toolpaths
+XDG
+macOS
+FreeBSD
+OpenBSD
+repo
+npm
+worktrees
+gitlink

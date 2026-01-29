@@ -1,0 +1,14 @@
+{
+  "name": "toolpaths",
+  "private": true,
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "lint": "biome check --files-ignore-unknown=true --no-errors-on-unmatched .",
+    "lint:fix": "biome check --write --files-ignore-unknown=true --no-errors-on-unmatched .",
+    "lint:md": "markdownlint-cli2 **/*.md"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.10",
+    "markdownlint-cli2": "^0.17.0"
+  }
+}

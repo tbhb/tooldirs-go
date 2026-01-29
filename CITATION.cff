@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "toolpaths"
+abstract: "Platform-appropriate directory paths for Go applications."
+authors:
+  - family-names: Burns
+    given-names: Tony
+    orcid: "https://orcid.org/0009-0006-4480-2939"
+repository-code: "https://github.com/tbhb/toolpaths"
+license: MIT
+version: "0.0.0"
+date-released: "2026-01-29"
+keywords:
+  - go
+  - golang
+  - xdg
+  - directories
+  - cross-platform
