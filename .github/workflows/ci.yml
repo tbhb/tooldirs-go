@@ -65,7 +65,7 @@ jobs:
         run: just lint
 
       - name: Lint GitHub Actions workflows
-        uses: reviewdog/action-actionlint@4b9ef3f43a0b9162e3c83c1a08d1cc8d4235164b # v1.70.0
+        uses: reviewdog/action-actionlint@e58ee9d111489c31395fbe4857b0be6e7635dbda # v1.70.0
 
   test:
     name: "Test (${{ matrix.os }}, Go ${{ matrix.go-version }})"
