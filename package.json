@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.10",
-    "markdownlint-cli2": "^0.17.0"
+    "markdownlint-cli2": "^0.21.0"
   }
 }
